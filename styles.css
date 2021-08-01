@@ -63,3 +63,27 @@ body.dark {
   top: 60px;
   color: #fff;
 }
+
+@media (max-width: 600px) {
+  body {
+    background: #181824 url("../images/bg-mobile-dark.jpg") no-repeat center
+      center/cover;
+  }
+  body[theme="dark"] {
+    background: #fff url("../images/bg-mobile-light.jpg") no-repeat center
+      center/cover;
+  }
+
+  .to-dos {
+    width: 83%;
+  }
+  #inputField {
+    width: auto;
+  }
+  .change-theme i {
+    position: relative;
+    top: 30px;
+    left: 70px;
+    margin: 10px;
+  }
+}
